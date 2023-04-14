@@ -134,10 +134,6 @@ button {
   color: #434455;
 }
 
-.add-margin {
-  margin-right: 40px;
-}
-
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
@@ -200,6 +196,11 @@ button {
 }
 
 /*===== Feature section =====*/
+
+.feature-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .feature-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -244,12 +245,17 @@ button {
   color: #2e2f42;
 }
 
+.doing-item {
+  width: calc((100% - 48px) / 3);
+}
+
 .doing-item:not(:last-child) {
   margin-right: 24px;
 }
 
 /*===== Our Team =====*/
 .team-section-list {
+  width: calc((100% - 72px) / 4);
   box-shadow: 0px 1px 6px #2e2f4214, 0px 1px 1px #2e2f4229,
     0px 2px 1px #2e2f4214;
   border-radius: 0px 0px 4px 4px;
@@ -392,4 +398,20 @@ button {
 
 .card-list {
   width: calc((100% - 48px) / 3);
+}
+
+.project-title-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
+.project-title-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
