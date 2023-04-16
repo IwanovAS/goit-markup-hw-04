@@ -7,6 +7,7 @@
   --color-border: #e7e9fc;
   --color-button: #4d5ae5;
   --color-icon: #f4f4fd;
+  --color-customer-link: #8e8f99;
 }
 
 body {
@@ -369,7 +370,7 @@ button {
 .customer-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -380,7 +381,6 @@ button {
 .customer-list {
   display: flex;
   justify-content: center;
-
   gap: 24px;
 }
 
@@ -391,13 +391,17 @@ button {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  fill: #8e8f99;
+  color: var(--color-customer-link);
+}
+
+.customer-icon {
+  fill: currentColor;
 }
 
 .customer-link:hover,
 .customer-link:focus {
   border-color: #404bbf;
-  fill: #404bbf;
+  color: #404bbf;
 }
 
 .customer-item {
@@ -532,8 +536,8 @@ button {
   border-top: none;
 }
 
-.card-list:hover,
-.card-list:focus {
+.project-link:hover,
+.project-link:focus {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
