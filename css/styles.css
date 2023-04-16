@@ -516,6 +516,10 @@ button {
 
 /* =====Project Card */
 
+.project-link {
+  display: block;
+}
+
 .container-list {
   flex-wrap: wrap;
   justify-content: space-between;
