@@ -6,6 +6,7 @@
   --color-font: #434455;
   --color-border: #e7e9fc;
   --color-button: #4d5ae5;
+  --color-icon: #f4f4fd;
 }
 
 body {
@@ -244,14 +245,14 @@ button {
   color: #434455;
 }
 
-.feature-link {
+.feature-social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 264px;
   height: 112px;
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 /*===== What are we doing =====*/
@@ -292,7 +293,7 @@ button {
 }
 
 .team-section-text {
-  padding: 32px 16px;
+  padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -333,7 +334,6 @@ button {
 }
 
 /* Social icons */
-
 .social {
   display: flex;
   justify-content: center;
@@ -353,6 +353,10 @@ button {
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
+}
+
+.social-icon {
+  fill: var(--color-icon);
 }
 
 /* ===== Custoners ===== */
