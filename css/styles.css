@@ -436,6 +436,40 @@ button {
   color: #f4f4fd;
 }
 
+.footer-title {
+  display: flex;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.logo-item {
+  margin-right: 120px;
+}
+
+.social-footer-item {
+  display: block;
+  width: 208px;
+  height: 80px;
+}
+
+.social-footer {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-list {
+  align-items: baseline;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #31d0aa;
+}
+
 /* ====== Portfolio ====== */
 .filter-card-section {
   padding: 96px 0 120px;
@@ -490,7 +524,7 @@ button {
 
 .card-list:hover,
 .card-list:focus {
-  border: 1px solid #f4f4fd;
+  border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
