@@ -456,9 +456,15 @@ button {
   color: #ffffff;
 }
 
-.logo-item {
+.footer-container {
+  display: flex;
+  align-items: baseline;
   margin-right: 120px;
 }
+
+/* .logo-item {
+  margin-right: 120px;
+} */
 
 .social-footer-item {
   display: block;
@@ -470,6 +476,11 @@ button {
   display: flex;
   gap: 16px;
 }
+
+/* .footer-link {
+  width: 40px;
+  height: 40px;
+} */
 
 .footer-list {
   align-items: baseline;
